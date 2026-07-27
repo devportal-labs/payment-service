@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: payment-service
+  description: Handles payment processing for DevPortal platform
+  annotations:
+    github.com/project-slug: devportal-labs/payment-service
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - python
+    - microservice
+spec:
+  type: service
+  lifecycle: production
+  owner: platform-engineers
+  system: devportal-platform
