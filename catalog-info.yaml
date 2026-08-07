@@ -7,7 +7,6 @@ metadata:
     github.com/project-slug: devportal-labs/payment-service
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: payment-service
-    argocd/app-name: payment-service
   tags:
     - python
     - microservice
